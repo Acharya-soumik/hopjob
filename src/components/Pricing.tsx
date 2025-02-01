@@ -103,7 +103,7 @@ export function Pricing() {
               </div>
 
               <ul className="mb-8 space-y-4 flex-1">
-                {tier.features.map((feature) => (
+                {tier.features.map((feature:any) => (
                   <li key={feature} className="flex items-center gap-x-3">
                     <Check className="h-5 w-5 text-primary" />
                     <span className="text-sm text-gray-600 dark:text-gray-300">
